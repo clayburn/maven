@@ -624,6 +624,9 @@ under the License.
             <exclude>README.bootstrap.txt</exclude>
             <exclude>README.md</exclude>
             <exclude>**/.factorypath</exclude>
+            <exclude>.mvn/extensions.xml</exclude>
+            <exclude>.mvn/gradle-enterprise.xml</exclude>
+            <exclude>.mvn/.gradle-enterprise/gradle-enterprise-workspace-id</exclude>
           </excludes>
         </configuration>
       </plugin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gradleEnterprise>
+    <server>
+        <url>http://ec2-3-237-74-135.compute-1.amazonaws.com/</url>
+        <allowUntrusted>true</allowUntrusted>
+    </server>
+    <buildCache>
+        <local>
+            <enabled>false</enabled>
+        </local>
+    </buildCache>
+    <buildScan>
+        <publish>ALWAYS</publish>
+        <capture>
+            <goalInputFiles>true</goalInputFiles>
+        </capture>
+    </buildScan>
+</gradleEnterprise>

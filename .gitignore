@@ -16,3 +16,4 @@ out/
 .checkstyle
 .factorypath
 .vscode/
+gradle-enterprise-workspace-id
